@@ -1,0 +1,337 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5429E61E19871A340063B83A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5429E61D19871A340063B83A /* Cocoa.framework */; };
+		54CB5A2F197CA46100513CD2 /* Chuckjour.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 54CB5A2E197CA46100513CD2 /* Chuckjour.cpp */; };
+		54CB5A31197CA49F00513CD2 /* ChuckJour.chug in CopyFiles */ = {isa = PBXBuildFile; fileRef = 54CB5A1E197CA42800513CD2 /* ChuckJour.chug */; };
+		54CB5A74197CAC7100513CD2 /* VVOSC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54CB5A73197CAC7100513CD2 /* VVOSC.framework */; };
+		54CB5A76197CAC7C00513CD2 /* VVBasics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54CB5A75197CAC7C00513CD2 /* VVBasics.framework */; };
+		54CB5A78197CACAF00513CD2 /* VVBasics.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 54CB5A75197CAC7C00513CD2 /* VVBasics.framework */; };
+		54CB5A79197CACAF00513CD2 /* VVOSC.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 54CB5A73197CAC7100513CD2 /* VVOSC.framework */; };
+		54CB5A81197CC55200513CD2 /* managerHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 54CB5A7F197CC55200513CD2 /* managerHandler.h */; };
+		54CB5A82197CC55200513CD2 /* managerHandler.mm in Sources */ = {isa = PBXBuildFile; fileRef = 54CB5A80197CC55200513CD2 /* managerHandler.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		54CB5A30197CA47D00513CD2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/lib/chuck;
+			dstSubfolderSpec = 0;
+			files = (
+				54CB5A31197CA49F00513CD2 /* ChuckJour.chug in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54CB5A77197CACA300513CD2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				54CB5A78197CACAF00513CD2 /* VVBasics.framework in CopyFiles */,
+				54CB5A79197CACAF00513CD2 /* VVOSC.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5429E61D19871A340063B83A /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		54CB5A1E197CA42800513CD2 /* ChuckJour.chug */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = ChuckJour.chug; sourceTree = BUILT_PRODUCTS_DIR; };
+		54CB5A23197CA42800513CD2 /* ChuckJourProj.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = ChuckJourProj.xcconfig; sourceTree = "<group>"; };
+		54CB5A24197CA42800513CD2 /* ChuckJourTarget.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = ChuckJourTarget.xcconfig; sourceTree = "<group>"; };
+		54CB5A2E197CA46100513CD2 /* Chuckjour.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = Chuckjour.cpp; path = ../../Chuckjour.cpp; sourceTree = "<group>"; };
+		54CB5A73197CAC7100513CD2 /* VVOSC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VVOSC.framework; path = "../../../vvopensource/build@rpath/VVOSC.framework"; sourceTree = "<group>"; };
+		54CB5A75197CAC7C00513CD2 /* VVBasics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VVBasics.framework; path = "../../../vvopensource/build@rpath/VVBasics.framework"; sourceTree = "<group>"; };
+		54CB5A7F197CC55200513CD2 /* managerHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = managerHandler.h; sourceTree = "<group>"; };
+		54CB5A80197CC55200513CD2 /* managerHandler.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = managerHandler.mm; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		54CB5A1B197CA42800513CD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5429E61E19871A340063B83A /* Cocoa.framework in Frameworks */,
+				54CB5A74197CAC7100513CD2 /* VVOSC.framework in Frameworks */,
+				54CB5A76197CAC7C00513CD2 /* VVBasics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		54CB5A15197CA42800513CD2 = {
+			isa = PBXGroup;
+			children = (
+				5429E61D19871A340063B83A /* Cocoa.framework */,
+				54CB5A75197CAC7C00513CD2 /* VVBasics.framework */,
+				54CB5A20197CA42800513CD2 /* ChuckJour */,
+				54CB5A1F197CA42800513CD2 /* Products */,
+				54CB5A73197CAC7100513CD2 /* VVOSC.framework */,
+			);
+			sourceTree = "<group>";
+			usesTabs = 0;
+		};
+		54CB5A1F197CA42800513CD2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				54CB5A1E197CA42800513CD2 /* ChuckJour.chug */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		54CB5A20197CA42800513CD2 /* ChuckJour */ = {
+			isa = PBXGroup;
+			children = (
+				54CB5A2E197CA46100513CD2 /* Chuckjour.cpp */,
+				54CB5A7F197CC55200513CD2 /* managerHandler.h */,
+				54CB5A80197CC55200513CD2 /* managerHandler.mm */,
+				54CB5A23197CA42800513CD2 /* ChuckJourProj.xcconfig */,
+				54CB5A24197CA42800513CD2 /* ChuckJourTarget.xcconfig */,
+				54CB5A21197CA42800513CD2 /* Supporting Files */,
+			);
+			path = ChuckJour;
+			sourceTree = "<group>";
+		};
+		54CB5A21197CA42800513CD2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		54CB5A1C197CA42800513CD2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54CB5A81197CC55200513CD2 /* managerHandler.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		54CB5A1D197CA42800513CD2 /* ChuckJour */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54CB5A2B197CA42800513CD2 /* Build configuration list for PBXNativeTarget "ChuckJour" */;
+			buildPhases = (
+				54CB5A1A197CA42800513CD2 /* Sources */,
+				54CB5A1B197CA42800513CD2 /* Frameworks */,
+				54CB5A1C197CA42800513CD2 /* Headers */,
+				54CB5A77197CACA300513CD2 /* CopyFiles */,
+				54CB5A30197CA47D00513CD2 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChuckJour;
+			productName = ChuckJour;
+			productReference = 54CB5A1E197CA42800513CD2 /* ChuckJour.chug */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		54CB5A16197CA42800513CD2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "timothy j";
+				TargetAttributes = {
+					54CB5A1D197CA42800513CD2 = {
+						DevelopmentTeam = 85W262F9CB;
+					};
+				};
+			};
+			buildConfigurationList = 54CB5A19197CA42800513CD2 /* Build configuration list for PBXProject "ChuckJour" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 54CB5A15197CA42800513CD2;
+			productRefGroup = 54CB5A1F197CA42800513CD2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				54CB5A1D197CA42800513CD2 /* ChuckJour */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		54CB5A1A197CA42800513CD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54CB5A82197CC55200513CD2 /* managerHandler.mm in Sources */,
+				54CB5A2F197CA46100513CD2 /* Chuckjour.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		54CB5A29197CA42800513CD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		54CB5A2A197CA42800513CD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		54CB5A2C197CA42800513CD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_ENTITLEMENTS[sdk=macosx*]" = "";
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				EXECUTABLE_EXTENSION = chug;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Developer/vvopensource/build@rpath",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/Developer/chugins/chuck/include,
+				);
+				LD_DYLIB_INSTALL_NAME = "/usr/lib/chuck/$(EXECUTABLE_PATH)";
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks @executable_path/../Frameworks";
+				OTHER_LDFLAGS = (
+					"-weak_framework",
+					VVBasics,
+					"-weak_framework",
+					VVOSC,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		54CB5A2D197CA42800513CD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				EXECUTABLE_EXTENSION = chug;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Developer/vvopensource/build@rpath",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/Developer/chugins/chuck/include,
+				);
+				LD_DYLIB_INSTALL_NAME = "/usr/lib/chuck/$(EXECUTABLE_PATH)";
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks @executable_path/../Frameworks";
+				OTHER_LDFLAGS = (
+					"-weak_framework",
+					VVBasics,
+					"-weak_framework",
+					VVOSC,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		54CB5A19197CA42800513CD2 /* Build configuration list for PBXProject "ChuckJour" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54CB5A29197CA42800513CD2 /* Debug */,
+				54CB5A2A197CA42800513CD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54CB5A2B197CA42800513CD2 /* Build configuration list for PBXNativeTarget "ChuckJour" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54CB5A2C197CA42800513CD2 /* Debug */,
+				54CB5A2D197CA42800513CD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 54CB5A16197CA42800513CD2 /* Project object */;
+}
