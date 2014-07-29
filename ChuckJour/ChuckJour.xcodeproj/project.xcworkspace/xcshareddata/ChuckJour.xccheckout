@@ -5,13 +5,15 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>FD5B9D18-3BB0-488D-AFD7-77A0609EAD8C</string>
+	<string>0105C550-1C10-4489-9971-CC043CC24865</string>
 	<key>IDESourceControlProjectName</key>
 	<string>ChuckJour</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>1CA6259B-B5DC-420F-804B-9B4B00F6CF5E</key>
 		<string>git://github.com/mrRay/vvopensource</string>
+		<key>92F5B14F-4908-4C42-A0C4-DA4767E1C391</key>
+		<string>ssh://github.com/timothybarraclough/chuckJour.git</string>
 		<key>D3F6C12B-0060-4590-8578-64E731C7B718</key>
 		<string>git://github.com/spencersalazar/chugins</string>
 	</dict>
@@ -21,17 +23,27 @@
 	<dict>
 		<key>1CA6259B-B5DC-420F-804B-9B4B00F6CF5E</key>
 		<string>../../../../../vvopensource</string>
+		<key>92F5B14F-4908-4C42-A0C4-DA4767E1C391</key>
+		<string>../../..</string>
 		<key>D3F6C12B-0060-4590-8578-64E731C7B718</key>
 		<string>../../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>git://github.com/spencersalazar/chugins</string>
+	<string>ssh://github.com/timothybarraclough/chuckJour.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
 	<string>D3F6C12B-0060-4590-8578-64E731C7B718</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>92F5B14F-4908-4C42-A0C4-DA4767E1C391</string>
+			<key>IDESourceControlWCCName</key>
+			<string>chuckjour</string>
+		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
