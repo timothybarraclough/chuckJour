@@ -41,7 +41,7 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "ChuckJour/managerHandler.mm"
+            filePath = "ChuckJour/managerHandler.m"
             timestampString = "428288868.376345"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
